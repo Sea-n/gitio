@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1005955588430",
+    "firebase_url": "https://git-io.firebaseio.com",
+    "project_id": "git-io",
+    "storage_bucket": "git-io.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005955588430:android:ddef867975079958",
+        "android_client_info": {
+          "package_name": "taipei.sean.gitio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005955588430-s7hmj6s8k6sfin9n8lb29qcvs6q6sjrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoRDiLm4Lg7KO7uPjBCntOZP8Dl87IWd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
