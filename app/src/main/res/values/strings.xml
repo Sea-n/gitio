@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Git io</string>
 
-
+    <string name="nav_header_title">GitHub URL Shorter</string>
     <string name="setting">Setting</string>
     <string name="history">History</string>
 
@@ -9,6 +9,7 @@
     <string name="url_wrong">URL seems to wrong, please check again</string>
     <string name="code">Code</string>
     <string name="submit">Submit</string>
+    <string name="no_context_yet">No Context Yet.</string>
     <string name="processing">Processing..</string>
     <string name="copied">Copied to Clipboard</string>
 
@@ -25,10 +26,8 @@
     <string name="shorten">Shorten</string>
 
     <string name="nav_header_photo" translatable="false">Profile Photo</string>
-    <string name="nav_header_default_title" translatable="false">GitHub URL Shorter</string>
     <string name="nav_footer" translatable="false">%1$s  v%2$s (%3$s)</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
-    <string name="no_context_yet" translatable="false">No Context Yet.</string>
     <string name="github_url_regex" translatable="false">https?://([a-z_-]+\\.)*github\\.(io|com)/[^ \n]+</string>
 </resources>
