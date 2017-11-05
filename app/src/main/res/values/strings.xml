@@ -26,6 +26,7 @@
 
     <string name="nav_header_photo" translatable="false">Profile Photo</string>
     <string name="nav_header_default_title" translatable="false">GitHub URL Shorter</string>
+    <string name="nav_footer" translatable="false">%1$s  v%2$s (%3$s)</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="no_context_yet" translatable="false">No Context Yet.</string>

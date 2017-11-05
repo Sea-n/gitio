@@ -6,6 +6,8 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -75,6 +77,24 @@ public class MainActivity extends AppCompatActivity {
                 return navItemSelected(item);
             }
         });
+
+
+        String appName = getString(R.string.app_name);
+        String footerStr = "";
+        try {
+            PackageInfo pInfo = this.getPackageManager().getPackageInfo(getPackageName(), 0);
+            String verName = pInfo.versionName;
+            int verCode = pInfo.versionCode;
+            footerStr = getString(R.string.nav_footer, appName, verName, String.valueOf(verCode));
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e("main", "Name Not Found", e);
+            if (footerStr.equals("")) {
+                footerStr = e.getLocalizedMessage();
+            }
+        }
+
+        final TextView footer = findViewById(R.id.main_footer);
+        footer.setText(footerStr);
 
 
         final TextInputEditText oriUrlView = findViewById(R.id.original_url);
