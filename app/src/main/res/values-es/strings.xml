@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Git io</string>
+
+    <string name="nav_header_title">Acortador de URL GitHub</string>
+    <string name="setting">Ajuste</string>
+    <string name="history">Historia</string>
+
+    <string name="original_url">URL original</string>
+    <string name="url_wrong">La URL parece estar equivocada, compruebe de nuevo</string>
+    <string name="code">Código</string>
+    <string name="submit">Enviar</string>
+    <string name="no_context_yet">Sin contexto todavía</string>
+    <string name="processing">Procesando..</string>
+    <string name="copied">Copiado al Portapapeles</string>
+
+    <string name="setting_short_copy">Permitir copiar el enlace acortado</string>
+    <string name="setting_auto_copy">Auto copia de git.io Enlace cuando se acorta</string>
+
+    <string name="delete_title">Borrar historial</string>
+    <string name="delete_message">¿Estás seguro de borrar este historial?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <string name="notification_title">URL corta copiada</string>
+    <string name="notification_copy_description">URL corta copiada en la barra de notificaciones</string>
+    <string name="shorten">Acortar</string>
+</resources>

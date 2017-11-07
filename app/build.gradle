@@ -7,8 +7,8 @@ android {
         applicationId "taipei.sean.gitio"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 3
+        versionName "1.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [onesignal_app_id               : "69f150dd-329a-44ed-8560-9f0d91a4ccd3",
                                 // Project number pulled from dashboard, local value is ignored.
